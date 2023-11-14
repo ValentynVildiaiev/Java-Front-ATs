@@ -67,14 +67,14 @@ public class CNSLPagePlatformCreationStatusDeactive {
         consolePage.platformInspectorHeadingClick();
     }
     @Test @Order(9)
-    @DisplayName("Platformss status Set Active")
+    @DisplayName("Test Platformss status Set Active")
     public void PlatformsStatus(){
         consolePage.platformIsActiveState();
         consolePage.platformIsActiveStateTrue();
         consolePage.platformInspectorHeadingClick();
     }
     @Test @Order(10)
-    @DisplayName("Save creation of Platform")
+    @DisplayName("Test Save creation of Platform")
     public void CreateFinish(){
         consolePage.InspectorSaveButton();
         consolePage.InspectorSaveButton();

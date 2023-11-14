@@ -16,12 +16,12 @@ public class CNSLPagePlatformCreationStatusActive {
         LoginPage.Authorization();
     }
     @Test @Order(1)
-    @DisplayName("Mid Selection")
+    @DisplayName("Test Mid Selection")
     public void SelectMid(){
         consolePage.midSelectFirstTable();
     }
     @Test @Order(2)
-    @DisplayName("Platform Header")
+    @DisplayName("Test Platform Header")
     public void CheckPlatformHeading(){
         System.out.println("Current opened page: " + consolePage.platformsHeadingText());
     }
